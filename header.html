@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="">
+	
+	<title>head</title> 
+</head>
+<style> 
+	ul li.active a {
+		background: red;
+		color: yellow;}
+	.col-sm-2{background: red; padding: 0px;}
+	.col-sm-10{background: yellow-; }
+	.collapse{background: silve;}
+</style>
+
+<body class="home">
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+						
+				<div class="navbar-header"> 
+					<!-- Button for smallest screens -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+					<a class="navbar-brand" href="index.php"><img class="img-responsivek" src="assets/images/logos1.png" width="200" height="100" alt="COJERCO"></a>
+			
+				</div>
+				
+				<div class="navbar-collapse collapse">
+					
+					<ul class="nav navbar-nav pull-right">
+						<li><a href="index.php">ACCUEIL</a></li>
+						<li><a href="missions.php">MISSIONS</a></li>
+						<li><a href="fonctionnement.php">FONCTIONNEMENT</a></li>
+						<li><a href="historique.php">HISTORIQUE</a></li>
+						<!--li><a href="/cojerco/composition.php">COMPOSITION</a></li-->
+						
+						<!-- li><a href="contact.php">CONTACT</a></li -->
+						<li><a class="btn" href="admins/login/login.php">ESPACE MEMBRE</a></li>
+					</ul>
+				</div><!--/.nav-collapse-->		
+		</div>
+	</div> 
+	<!--script src="assets/js/jquery-3.5.1.js"></script>
+	<script type="text/javascript">
+		$(document).on('click','ul li', function(){
+    		$(this).addClass('active').siblings().removeClass('active')
+    		//alert('okokok');
+		})
+	</script-->
+</body>
+<html>
